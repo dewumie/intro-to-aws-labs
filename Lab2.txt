@@ -33,6 +33,11 @@ systemctl enable httpd
 echo "Hello World from $(hostname -f)" > /var/www/html/index.html
 echo "Healthy" > /var/www/html/health.html
 
+Go to instances and click launch instance dropdown
+Select launch from template
+Select template created in step 4
+Select launch instance
+
 Step 5 (Documentation)
 Modify and update every step you took to achieve the lab, that was not captured in the lab instruction in your local repo Lab2.txt file and save.
 On the terminal run command git add Lab2.txt
