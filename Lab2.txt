@@ -32,6 +32,7 @@ systemctl start httpd
 systemctl enable httpd
 echo "Hello World from $(hostname -f)" > /var/www/html/index.html
 echo "Healthy" > /var/www/html/health.html
+Click create launch template
 
 Go to instances and click launch instance dropdown
 Select launch from template
