@@ -1,6 +1,6 @@
 Lab3
 Step1 
-On VScode terminal navigate to directory AWSLabs and run command git pull https://github.com/awscloudessentials/intro-to-aws-lab.git
+On VScode terminal navigate to directory into-to-aws-lab and run command git pull https://github.com/awscloudessentials/intro-to-aws-lab.git
 Open the new file(Lab3) in the editor, to allow you add steps you took to complete the lab.
 
 Step2
@@ -16,15 +16,16 @@ Screenshot and send to the group chat for verification.
 
 Step3
 Go back to your EC2 instance and connect to it using the 'aws cloud shell" not EC2 Connect.
-Upload the key pair of the instance from your local machine into the cloud shell
+Upload the key pair of the instance from your local machine into the cloud shell (check top right corner for that)
 Run the command ls -la to verify that your key is uploaded correctly.
-Run command sudo ssh -i "<keypair name" ec2-user@<public-ip-address>.compute-1.amazonaws.com
+Run chmod 400 keypairname (gotten from ec2 instance connect tab - ssh client)
+Run command ssh -i "ec2serverkey.pem" ec2-user@ec2-34-203-230-35.compute-1.amazonaws.com
 To connect to your EC2 instance
 Send screenshoot for confirmation.
 Once confirmed, terminate your instance.
 
 Step3(Documentation)
 Document all the steps in the file you have opened in the editor.
-Save and git add and git commit
+Save and add and git commit
 Push to your personal repo.
 
